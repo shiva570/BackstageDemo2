@@ -1,0 +1,19 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backend-function-1
+  title: Function process the data 
+  description: Background Processor . 
+  
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - function
+    - dotnet6
+spec:
+  type: website
+  lifecycle: production
+  owner: Demo-Team
+  system: Demo-System 
+ 
